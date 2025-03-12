@@ -1,2 +1,0 @@
-# Universidad
-Universidad en general
