@@ -81,7 +81,7 @@ int main() {
 	    unsigned int BinarioUno = BinarioADecimal(b); 
 
         while (true) {
-        cout << "¿Que procedimiento quisieras ver?" << endl;
+        cout << "Que procedimiento quisieras ver?" << endl;
         cout << "1. Transformar 2019 en Base Binaria" << endl;    
         cout << "2. Transformar 2019 en Base Octal" << endl;
         cout << "3. Transformar 2019 en Base Hexadecimal" << endl;
@@ -100,7 +100,7 @@ int main() {
         } 
 		else if (s < 0 || s > 6) 
 		{
-            cout << "Opcion no valida. Intente de nuevo." << endl; // Mensaje de error
+            system("cls");
         } 
 		else 
 		{
